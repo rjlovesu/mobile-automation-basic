@@ -3,6 +3,7 @@ package screens;
 import general.AppiumElement;
 import io.appium.java_client.AppiumDriver;
 
+@SuppressWarnings("rawtypes")
 public class SignInScreen extends BaseScreen {
   // Constructor
   public SignInScreen(AppiumDriver driver) {

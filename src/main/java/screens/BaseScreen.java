@@ -10,6 +10,7 @@ import java.util.Map;
 import static org.assertj.core.api.Assertions.assertThat;
 import static general.Logger.info;
 
+@SuppressWarnings("rawtypes")
 public class BaseScreen {
   // Variables
   private final Integer TIMEOUT = 10;

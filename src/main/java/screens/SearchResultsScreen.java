@@ -4,6 +4,7 @@ import general.AppiumElement;
 import general.ScreenManager;
 import io.appium.java_client.AppiumDriver;
 
+@SuppressWarnings("rawtypes")
 public class SearchResultsScreen extends BaseScreen {
   // Constructor
   public SearchResultsScreen(AppiumDriver driver) {

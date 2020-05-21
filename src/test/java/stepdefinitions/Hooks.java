@@ -15,8 +15,9 @@ import java.nio.file.Paths;
 import java.util.concurrent.TimeUnit;
 
 import static general.ScreenManager.getHomeScreen;
-import static java.lang.Thread.sleep;
+//import static java.lang.Thread.sleep;
 
+@SuppressWarnings("rawtypes")
 public class Hooks {
   private String apkPath = Paths.get("").toAbsolutePath().toString() + "/apk/";
   private String appName = "ebay.apk";

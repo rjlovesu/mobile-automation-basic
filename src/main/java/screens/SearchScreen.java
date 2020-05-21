@@ -6,6 +6,7 @@ import io.appium.java_client.AppiumDriver;
 
 import static general.Logger.info;
 
+@SuppressWarnings("rawtypes")
 public class SearchScreen extends BaseScreen {
   // Constructor
   public SearchScreen(AppiumDriver driver) {

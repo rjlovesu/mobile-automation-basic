@@ -4,6 +4,7 @@ import general.AppiumElement;
 import general.ScreenManager;
 import io.appium.java_client.AppiumDriver;
 
+@SuppressWarnings("rawtypes")
 public class HomeScreen extends BaseScreen {
   // Constructor
   public HomeScreen(AppiumDriver driver) {

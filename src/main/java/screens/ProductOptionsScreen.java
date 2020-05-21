@@ -4,6 +4,7 @@ import general.AppiumElement;
 import general.ScreenManager;
 import io.appium.java_client.AppiumDriver;
 
+@SuppressWarnings("rawtypes")
 public class ProductOptionsScreen extends ProductScreen {
   // Constructor
   public ProductOptionsScreen(AppiumDriver driver) {

@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
 import static general.Logger.info;
 import static io.appium.java_client.touch.offset.PointOption.point;
 
+@SuppressWarnings("rawtypes")
 public class AppiumElement {
   // Variables
   private String key;

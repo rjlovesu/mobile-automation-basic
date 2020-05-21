@@ -5,6 +5,7 @@ import java.util.HashMap;
 
 import static general.Logger.info;
 
+@SuppressWarnings("rawtypes")
 public class ElementCollection {
   // Variables
   private AppiumDriver driver;

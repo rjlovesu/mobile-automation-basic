@@ -3,6 +3,7 @@ package general;
 import io.appium.java_client.AppiumDriver;
 import screens.*;
 
+@SuppressWarnings("rawtypes")
 public class ScreenManager {
   // Variables
   private static AppiumDriver driver;
